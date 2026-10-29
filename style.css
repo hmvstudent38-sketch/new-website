@@ -20,7 +20,7 @@ scroll-behavior: smooth;
 
 body 
 {
-margin: 5;
+margin: 0;
     
 padding: 0;
     
@@ -387,7 +387,7 @@ box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
     bottom: 20px;
     right: 20px;
 
-    background-color: ;
+    background-color: #164e35;
     color: white;
 
     width: 50px;
@@ -395,7 +395,13 @@ box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 
     border-radius: 50%;
     text-align: center;
-
+    
     font-size: 30px;
-    text-decoration: none;
+    text-decoration: none;   
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     z-index: 9999;
 }
